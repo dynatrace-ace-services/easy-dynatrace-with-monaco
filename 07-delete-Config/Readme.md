@@ -7,7 +7,7 @@
 2) delete your configiration  
  Don't worry, it will delete only the configuration from monaco_lab and not your others Dynatrace configurations ;)   
 
-       cd;cd monitoring-as-code;
+       cd;cd ace-monitoring-as-code;
        sed -i 's/Appname/'$Appname'/g' 07-delete-Config/delete.yaml;./monaco deploy -e=environments.yaml -s=free_trial 07-delete-Config;sed -i 's/'$Appname'/Appname/g' 07-delete-Config/delete.yaml
        
 3) if you need to re-deploy it very quicly use these commands  
@@ -28,7 +28,7 @@
 
 - deploy with monaco  
 
-      cd;git clone https://github.com/dynatracelab/monitoring-as-code.git;cd monitoring-as-code;chmod +x monaco;export NEW_CLI=1;
+      cd;git clone https://github.com/ace-dynatrace-lab/ace-monitoring-as-code.git;cd ace-monitoring-as-code;chmod +x monaco;export NEW_CLI=1;
       ./monaco deploy -e=environments.yaml -s=free_trial 01-deploy-Config;
       ./monaco deploy -e=environments.yaml -s=free_trial 03-enable-Synthetic;
       ./monaco deploy -e=environments.yaml -s=free_trial 04-import-Dashboards;
@@ -37,4 +37,4 @@
       ./monaco deploy -e=environments.yaml -s=free_trial 06-define-Requestattribute
  
 # Next Step
-- [08-next-Step](https://github.com/dynatracelab/monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [08-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.

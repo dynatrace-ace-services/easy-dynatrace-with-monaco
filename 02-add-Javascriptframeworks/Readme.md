@@ -6,12 +6,12 @@ In this lab we will enable javascript frameworks **jqueries**, **icefaces** and 
 1) edit the json file configuration : lab-app-web.json
 - with nano
 
-      cd;cd monitoring-as-code;
+      cd;cd ace-monitoring-as-code;
       nano 02-add-Javascriptframeworks/application-web/lab-app-web.json
  
  - or with vi
  
-       cd;cd monitoring-as-code; 
+       cd;cd ace-monitoring-as-code; 
        vi 02-add-Javascriptframeworks/application-web/lab-app-web.json
       
  - turn to true the configuration like this  
@@ -25,7 +25,7 @@ In this lab we will enable javascript frameworks **jqueries**, **icefaces** and 
 
 3) deploy the config 
 
-       cd;cd monitoring-as-code;
+       cd;cd ace-monitoring-as-code;
        ./monaco deploy -e=environments.yaml -s=free_trial 02-add-Javascriptframeworks
        
 4) expected result
@@ -39,4 +39,4 @@ In this lab we will enable javascript frameworks **jqueries**, **icefaces** and 
 
 
 # Next Step
-- [03-enable-Synthetic](https://github.com/dynatracelab/monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser
+- [03-enable-Synthetic](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser
