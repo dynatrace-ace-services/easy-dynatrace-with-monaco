@@ -11,8 +11,8 @@
        sed -i 's/Appname/'$Appname'/g' 07-delete-Config/delete.yaml;./monaco deploy -e=environments.yaml -s=free_trial 07-delete-Config;sed -i 's/'$Appname'/Appname/g' 07-delete-Config/delete.yaml
        
 
-# Automate these steps 
-now you can import these steps in your Jenkins :  
+# In summary 
+it's what you can import in your Jenkins to automate your monitoring :  
 
       
 - export the variables
