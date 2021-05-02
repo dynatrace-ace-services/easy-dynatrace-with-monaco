@@ -10,7 +10,9 @@
        cd;cd ace-monitoring-as-code;
        sed -i 's/Appname/'$Appname'/g' 07-delete-Config/delete.yaml;./monaco deploy -e=environments.yaml -s=free_trial 07-delete-Config;sed -i 's/'$Appname'/Appname/g' 07-delete-Config/delete.yaml
        
-3) now you can import these steps in your Jenkins :  
+
+# Automate these steps 
+now you can import these steps in your Jenkins :  
 
       
 - export the variables
