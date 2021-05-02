@@ -10,10 +10,12 @@
        cd;cd ace-monitoring-as-code;
        sed -i 's/Appname/'$Appname'/g' 07-delete-Config/delete.yaml;./monaco deploy -e=environments.yaml -s=free_trial 07-delete-Config;sed -i 's/'$Appname'/Appname/g' 07-delete-Config/delete.yaml
        
-3) if you need to re-deploy it very quicly use these commands  
+3) now you can import these steps in your Jenkins :  
 
+      
 - export the variables
 
+      export NEW_CLI=1;
       export MyTenant=https://abcd.live.dynatrace.com
       export MyToken=ABCD123456XYZ
       export Appname=<Host_Group>
@@ -22,13 +24,14 @@
       export EnableSynthetic=true
       export Owner=$Email
 
-- env variables  
+- update the config
 
-      echo "MyTenant="$MyTenant;echo "MyToken="$MyToken;echo "Appname="$Appname;echo "Hostname="$Hostname;echo "EnableSynthetic="$EnableSynthetic;echo "Owner="$Owner
+       cd;
+       cd ace-monitoring-as-code;
+       git pull
 
-- deploy with monaco  
+- deploy the config
 
-      cd;git clone https://github.com/ace-dynatrace-lab/ace-monitoring-as-code.git;cd ace-monitoring-as-code;chmod +x monaco;export NEW_CLI=1;
       ./monaco deploy -e=environments.yaml -s=free_trial 01-deploy-Config;
       ./monaco deploy -e=environments.yaml -s=free_trial 03-enable-Synthetic;
       ./monaco deploy -e=environments.yaml -s=free_trial 04-import-Dashboards;
