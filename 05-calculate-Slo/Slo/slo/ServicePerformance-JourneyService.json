@@ -1,0 +1,20 @@
+{
+ "denominatorValue": 0,
+ "description": "Service Slo_fastjourneyrequests_{{.appname}} / Service RequestCount Server",
+ "enabled": true,
+ "error": "EVALUATION_TIMEFRAME_OUT_OF_BOUNDS",
+ "errorBudget": -1,
+ "evaluatedPercentage": -1,
+ "evaluationType": "AGGREGATE",
+ "filter": "type(\"SERVICE\"),entityName(\"[{{.appname}}] - JourneyService\")",
+ "metricDenominator": "builtin:service.requestCount.server",
+ "metricNumerator": "calc:service.slo_fastjourneyrequests_{{.appname}}",
+ "metricRate": "",
+ "name": "{{.name}}",
+ "numeratorValue": 0,
+ "status": "FAILURE",
+ "target": 95,
+ "timeframe": "-5m",
+ "useRateMetric": false,
+ "warning": 97.5
+}

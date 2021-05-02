@@ -1,0 +1,20 @@
+{
+ "denominatorValue": 32614,
+ "description": "Apps Web ActionCount Category (filtered) / Apps Web ActionCount Category",
+ "enabled": true,
+ "error": "NONE",
+ "errorBudget": -1.5309376341448484,
+ "evaluatedPercentage": 93.46906236585515,
+ "evaluationType": "AGGREGATE",
+ "filter": "type(\"APPLICATION\"),entityName(\"{{.appname}}\")",
+ "metricDenominator": "builtin:apps.web.actionCount.category:splitBy()",
+ "metricNumerator": "builtin:apps.web.actionCount.category:filter(eq(Apdex category,SATISFIED)):splitBy()",
+ "metricRate": "",
+ "name": "{{.name}}",
+ "numeratorValue": 30484,
+ "status": "FAILURE",
+ "target": 95,
+ "timeframe": "-1h",
+ "useRateMetric": false,
+ "warning": 98
+}
