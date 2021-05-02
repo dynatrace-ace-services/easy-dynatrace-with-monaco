@@ -72,4 +72,4 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 - [05-calculate-Slo](https://github.com/JLLormeau/monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate Slo  
 - [06-define-Requestattribute](https://github.com/JLLormeau/monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
 - [07-delete-Config](https://github.com/JLLormeau/monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the previous lab    
-- [lab8-next-Step](https://github.com/JLLormeau/monitoring-as-code/tree/main/lab8-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [08-next-Step](https://github.com/JLLormeau/monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
