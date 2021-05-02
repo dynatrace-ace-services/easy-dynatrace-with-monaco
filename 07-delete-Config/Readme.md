@@ -10,6 +10,8 @@
        cd;cd ace-monitoring-as-code;
        sed -i 's/Appname/'$Appname'/g' 07-delete-Config/delete.yaml;./monaco deploy -e=environments.yaml -s=free_trial 07-delete-Config;sed -i 's/'$Appname'/Appname/g' 07-delete-Config/delete.yaml
        
+# Next Step
+- [08-in-Summary](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-in-Summary) => it's an overview of the task you can easily automate.
 
 # In summary 
 it's what you can import in your Jenkins to automate your monitoring :  
@@ -41,4 +43,4 @@ it's what you can import in your Jenkins to automate your monitoring :
       ./monaco deploy -e=environments.yaml -s=free_trial 06-define-Requestattribute
  
 # Next Step
-- [08-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [09-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/09-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
