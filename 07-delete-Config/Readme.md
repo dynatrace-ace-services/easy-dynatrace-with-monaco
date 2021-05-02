@@ -14,7 +14,6 @@
 # In summary 
 it's what you can import in your Jenkins to automate your monitoring :  
 
-      
 - export the variables
 
       export NEW_CLI=1;
