@@ -27,9 +27,9 @@ it's what you can import in your Jenkins to automate your monitoring :
 
 - update the config
 
-       cd;
-       cd ace-monitoring-as-code;
-       git pull
+      cd;
+      cd ace-monitoring-as-code;
+      git pull
 
 - deploy the config
 
