@@ -29,4 +29,4 @@ In this lab we will generate and calculate SLO for :
 Add these SLO in your dashboard  
 
 # Next Step
-- [06-define-Requestattribute](https://github.com/JLLormeau/monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
+- [06-define-Requestattribute](https://github.com/dynatracelab/monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views

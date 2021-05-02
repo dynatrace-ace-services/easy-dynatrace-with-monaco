@@ -1,0 +1,2 @@
+monitoring-as-code => monitoring-as-code
+loadtesting-lab => load-testing-automation

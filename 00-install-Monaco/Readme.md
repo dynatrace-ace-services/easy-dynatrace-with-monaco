@@ -3,7 +3,7 @@
 1) download the lab  
 
        cd;
-       git clone https://github.com/JLLormeau/monitoring-as-code.git
+       git clone https://github.com/dynatracelab/monitoring-as-code.git
 
 2) download monaco (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/tag/v1.5.2))  
 
@@ -73,11 +73,11 @@ with these privileges (more info about token permission for monaco [here](https:
 | export MyToken=abcd1234xyz| echo "MyToken="$MyToken | ✔️ |
 | OneAgent installed with host-group=appname | service oneagent status | ✔️ |
 | easytravel installed and started (accesible from your browser) | docker ps --format "{{.ID}}\t{{.Status}}\t{{.Names}}" | ✔️ |
-| cd;git clone https://github.com/JLLormeau/monitoring-as-code (this lab) | cd;ls -lrt monitoring-as-code | ✔️ |
+| cd;git clone https://github.com/dynatracelab/monitoring-as-code (this lab) | cd;ls -lrt monitoring-as-code | ✔️ |
 | monaco installed with NEW_CLI=1 (new monaco cli version) | cd;cd monitoring-as-code;./monaco --version  | ✔️ |
 | monaco download -e=environments.yaml mydownload (for backup) | cd;ls -lrt monitoring-as-code/mydownload/free_trial | ✔️ |
 
 # Next Step
 
-- [01-deploy-Config](https://github.com/JLLormeau/monitoring-as-code/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
+- [01-deploy-Config](https://github.com/dynatracelab/monitoring-as-code/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
 

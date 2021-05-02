@@ -39,4 +39,4 @@ In this lab we will enable javascript frameworks **jqueries**, **icefaces** and 
 
 
 # Next Step
-- [03-enable-Synthetic](https://github.com/JLLormeau/monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser
+- [03-enable-Synthetic](https://github.com/dynatracelab/monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser

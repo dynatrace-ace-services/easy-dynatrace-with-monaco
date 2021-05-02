@@ -29,4 +29,4 @@ In this lab we will import a dashboard.
 And later you could share your own awesome dashboards on this plateform ==> [bizopsconfigurator](https://dynatrace.github.io/BizOpsConfigurator/index.html#miscTools)  
 
 # Next Step
-- [05-calculate-Slo](https://github.com/JLLormeau/monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate SLO (Service level objectif)   
+- [05-calculate-Slo](https://github.com/dynatracelab/monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate SLO (Service level objectif)   

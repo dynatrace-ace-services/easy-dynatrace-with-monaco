@@ -28,7 +28,7 @@
 
 - deploy with monaco  
 
-      cd;git clone https://github.com/JLLormeau/monitoring-as-code.git;cd monitoring-as-code;chmod +x monaco;export NEW_CLI=1;
+      cd;git clone https://github.com/dynatracelab/monitoring-as-code.git;cd monitoring-as-code;chmod +x monaco;export NEW_CLI=1;
       ./monaco deploy -e=environments.yaml -s=free_trial 01-deploy-Config;
       ./monaco deploy -e=environments.yaml -s=free_trial 03-enable-Synthetic;
       ./monaco deploy -e=environments.yaml -s=free_trial 04-import-Dashboards;
@@ -37,4 +37,4 @@
       ./monaco deploy -e=environments.yaml -s=free_trial 06-define-Requestattribute
  
 # Next Step
-- [lab8-next-Step](https://github.com/JLLormeau/monitoring-as-code/tree/main/lab8-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [08-next-Step](https://github.com/dynatracelab/monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.

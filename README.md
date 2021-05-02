@@ -11,7 +11,7 @@ This lab has been tested with linux Ubuntu 16.04 on Azure.
       https://www.dynatrace.com/trial/    
 
 2) install dynatrace OneAgent on your host 
-([oneagent installation documentation](https://github.com/JLLormeau/loadtesting-lab/blob/main/InstallEasytravel.md))    
+([oneagent installation documentation](https://github.com/dynatracelab/loadtesting-lab/blob/main/InstallEasytravel.md))    
 
        Go to your Dynatrace free trial > Dynatrace Hub > OneAgent Linux (https://abcd.live.dynatrace.com/#install;gf=all),
        and follow the workflow :
@@ -64,12 +64,12 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 
 # Labs 
 
-- [00-install-Monaco ](https://github.com/JLLormeau/monitoring-as-code/tree/main/00-install-Monaco) => to install monaco and connect it to your dynatrace free trial environment   
-- [01-deploy-Config](https://github.com/JLLormeau/monitoring-as-code/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
-- [02-add-Javascriptframeworks](https://github.com/JLLormeau/monitoring-as-code/tree/main/02-add-Javascriptframeworks) => to enable "jQueries", "ICEfaces" and "Prototype" javascript framework  
-- [03-enable-Synthetic](https://github.com/JLLormeau/monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser  
-- [04-deploy-Dashboards](https://github.com/JLLormeau/monitoring-as-code/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
-- [05-calculate-Slo](https://github.com/JLLormeau/monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate Slo  
-- [06-define-Requestattribute](https://github.com/JLLormeau/monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
-- [07-delete-Config](https://github.com/JLLormeau/monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the previous lab    
-- [08-next-Step](https://github.com/JLLormeau/monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [00-install-Monaco ](https://github.com/dynatracelab/monitoring-as-code/tree/main/00-install-Monaco) => to install monaco and connect it to your dynatrace free trial environment   
+- [01-deploy-Config](https://github.com/dynatracelab/monitoring-as-code/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
+- [02-add-Javascriptframeworks](https://github.com/dynatracelab/monitoring-as-code/tree/main/02-add-Javascriptframeworks) => to enable "jQueries", "ICEfaces" and "Prototype" javascript framework  
+- [03-enable-Synthetic](https://github.com/dynatracelab/monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser  
+- [04-deploy-Dashboards](https://github.com/dynatracelab/monitoring-as-code/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
+- [05-calculate-Slo](https://github.com/dynatracelab/monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate Slo  
+- [06-define-Requestattribute](https://github.com/dynatracelab/monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
+- [07-delete-Config](https://github.com/dynatracelab/monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the previous lab    
+- [08-next-Step](https://github.com/dynatracelab/monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.

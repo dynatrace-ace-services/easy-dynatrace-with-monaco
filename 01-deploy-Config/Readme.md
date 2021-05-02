@@ -75,4 +75,4 @@ Click on Preview botton to display the result of this configuration
 
        
 # Next Step
-- [02-add-Javascriptframeworks](https://github.com/JLLormeau/monitoring-as-code/tree/main/02-add-Javascriptframeworks) => "jQueries", "ICEfaces" and "Prototype" javascript framework
+- [02-add-Javascriptframeworks](https://github.com/dynatracelab/monitoring-as-code/tree/main/02-add-Javascriptframeworks) => "jQueries", "ICEfaces" and "Prototype" javascript framework

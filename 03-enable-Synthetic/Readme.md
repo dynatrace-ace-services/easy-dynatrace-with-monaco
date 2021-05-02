@@ -32,4 +32,4 @@ In this lab we will deploy a synthetic http monitor and a synthetic browser moni
 ![image](https://user-images.githubusercontent.com/40337213/115962170-62c8ed80-a51a-11eb-9f81-ae05684e7c5d.png)
 
 # Next Step
-- [04-deploy-Dashboards](https://github.com/JLLormeau/monitoring-as-code/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
+- [04-deploy-Dashboards](https://github.com/dynatracelab/monitoring-as-code/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  

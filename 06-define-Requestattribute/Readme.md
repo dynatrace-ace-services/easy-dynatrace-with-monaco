@@ -41,4 +41,4 @@ and you will filter the service flow view on a specific destination.
 Use your favorire decompilator tool to openthe source code (or for demo only use a online decompilator: http://www.javadecompilers.com)
 
 # Next Step 
-- [07-delete-Config](https://github.com/JLLormeau/monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the lab_monaco   
+- [07-delete-Config](https://github.com/dynatracelab/monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the lab_monaco   
