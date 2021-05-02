@@ -3,7 +3,7 @@
 1) download the lab  
 
        cd;
-       git clone https://github.com/dynatracelab/ace-monitoring-as-code.git
+       git clone https://github.com/ace-dynatracelab/ace-monitoring-as-code.git
 
 2) download monaco (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/tag/v1.5.2))  
 
