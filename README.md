@@ -72,4 +72,5 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 - [05-calculate-Slo](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate Slo  
 - [06-define-Requestattribute](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
 - [07-delete-Config](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the previous lab    
-- [08-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [08-in-Summary](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-in-Summary) => it's an overview of the task you can easily automate.
+- [09-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/09-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
