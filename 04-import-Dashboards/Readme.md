@@ -16,7 +16,7 @@ In this lab we will import a dashboard.
 
 3) deploy the dashboard   
 
-       cd;cd ace-monitoring-as-code;
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 04-import-Dashboards
  
 4) open your new dashboard : _Dashboard_
@@ -29,4 +29,4 @@ In this lab we will import a dashboard.
 And later you could share your own awesome dashboards on this plateform ==> [bizopsconfigurator](https://dynatrace.github.io/BizOpsConfigurator/index.html#miscTools)  
 
 # Next Step
-- [05-calculate-Slo](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate SLO (Service level objectif)   
+- [05-calculate-Slo](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/05-calculate-Slo) => to generate and calculate SLO (Service level objectif)   
