@@ -1,4 +1,4 @@
-#  Automate Cloud for all : How to configure dynatrace easily with Monaco
+#  Automate Cloud for all : How to configure dynatrace with Monaco
 
 In this lab, you will automatically deploy the smart configuration for easytravel.  
 You just need a linux with docker and a Dynatrace free trial environment.  
