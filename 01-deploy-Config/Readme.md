@@ -38,7 +38,7 @@ You will import :
 
 4) deploy the configuration (no drive mode)  
 
-       cd;cd easy-dynatrace-with-monaco:
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 01-deploy-Config
        
 5) verify on your Dynatrace environment the result of the imported configurations  
