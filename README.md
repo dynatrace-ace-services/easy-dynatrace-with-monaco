@@ -64,13 +64,13 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 
 # Labs 
 
-- [00-install-Monaco ](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/00-install-Monaco) => to install monaco and connect it to your dynatrace free trial environment   
-- [01-deploy-Config](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
-- [02-add-Javascriptframeworks](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/02-add-Javascriptframeworks) => to enable "jQueries", "ICEfaces" and "Prototype" javascript framework  
-- [03-enable-Synthetic](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser  
-- [04-deploy-Dashboards](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
-- [05-calculate-Slo](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/05-calculate-Slo) => to generate and calculate Slo  
-- [06-define-Requestattribute](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
-- [07-delete-Config](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the previous lab    
-- [08-in-Summary](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-in-Summary) => it's an overview of the task you can easily automate.
-- [09-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/09-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [00-install-Monaco ](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/00-install-Monaco) => to install monaco and connect it to your dynatrace free trial environment   
+- [01-deploy-Config](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
+- [02-add-Javascriptframeworks](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/02-add-Javascriptframeworks) => to enable "jQueries", "ICEfaces" and "Prototype" javascript framework  
+- [03-enable-Synthetic](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/03-enable-Synthetic) => to enable both synthetic monitor and synthetic browser  
+- [04-deploy-Dashboards](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
+- [05-calculate-Slo](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/05-calculate-Slo) => to generate and calculate Slo  
+- [06-define-Requestattribute](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
+- [07-delete-Config](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/07-delete-Config) => to delete the configuration deployed in the previous lab    
+- [08-in-Summary](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/08-in-Summary) => it's an overview of the task you can easily automate.
+- [09-next-Step](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/09-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
