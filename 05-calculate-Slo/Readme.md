@@ -15,12 +15,12 @@ In this lab we will generate and calculate SLO for :
 
 2) load the calculated service metric first   
 
-       cd;cd ace-monitoring-as-code
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 05-calculate-Slo/Metric
  
 3) load the slo rules   
 
-       cd;cd ace-monitoring-as-code
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 05-calculate-Slo/Slo
  
  4) verify on the result on your Dynatrace environment : _SLOs_
@@ -29,4 +29,4 @@ In this lab we will generate and calculate SLO for :
 Add these SLO in your dashboard  
 
 # Next Step
-- [06-define-Requestattribute](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
+- [06-define-Requestattribute](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/06-define-Requestattribute) => to create a business entity inside the service views
