@@ -11,4 +11,4 @@
        sed -i 's/Appname/'$Appname'/g' 07-delete-Config/delete.yaml;./monaco deploy -e=environments.yaml -s=free_trial 07-delete-Config;sed -i 's/'$Appname'/Appname/g' 07-delete-Config/delete.yaml
        
 # Next Step
-- [08-in-Summary](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/08-in-Summary) => it's an overview of the task you can easily automate.
+- [08-in-Summary](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/08-in-Summary) => it's an overview of the task you can easily automate.
