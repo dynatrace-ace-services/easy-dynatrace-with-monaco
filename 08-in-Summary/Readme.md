@@ -1,5 +1,5 @@
 # 08-in-Summary 
-it's what you can import in your Jenkins to automate your monitoring :  
+it's what you can define in your Jenkins Pipeline to automate your monitoring :  
 
 - export the variables
 
@@ -12,11 +12,6 @@ it's what you can import in your Jenkins to automate your monitoring :
       export EnableSynthetic=true
       export Owner=$Email
 
-- update the config
-
-      cd;
-      cd ace-monitoring-as-code;
-      git pull
 
 - deploy the config
 
