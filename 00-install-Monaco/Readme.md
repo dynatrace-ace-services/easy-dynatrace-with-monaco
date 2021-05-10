@@ -3,7 +3,7 @@
 1) download the lab  
 
        cd;
-       git clone https://github.com/ace-dynatrace-lab/ace-monitoring-as-code.git
+       git clone https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco.git
 
 2) download monaco (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/tag/v1.5.2))  
 
@@ -17,7 +17,7 @@ In this lab we will use only the new cli version of monaco.
 click [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code#experimental-new-cli) for documentation   
 
        export NEW_CLI=1;
-       cd;cd ace-monitoring-as-code;
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco --version
 
 - expected result 
@@ -25,7 +25,7 @@ click [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code#exper
 
 - to have more help 
 
-      cd;cd ace-monitoring-as-code;
+      cd;cd easy-dynatrace-with-monaco;
       ./monaco -h
 
   ![image](https://user-images.githubusercontent.com/40337213/116579510-bd938800-a912-11eb-9ee9-ef5b32583d59.png)
@@ -55,12 +55,12 @@ with these privileges (more info about token permission for monaco [here](https:
  monaco will backups your main Dynatrace configuration  
  the directory **free_trial** is created localy (lab_monaco/free_trial) with all you json configuration files exported.  
  
-       cd;cd ace-monitoring-as-code;
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco download -e=environments.yaml mydownload
  
  - look at the configuration types backuped by monaco   
 
-       cd;cd ace-monitoring-as-code;
+       cd;cd easy-dynatrace-with-monaco;
        ls -lrt mydownload/free_trial
        
        
@@ -72,12 +72,12 @@ with these privileges (more info about token permission for monaco [here](https:
 | export MyTenant=1234.live.dynatrace.com | echo "MyTenant=https://"$MyTenant  | ✔️ |
 | export MyToken=abcd1234xyz| echo "MyToken="$MyToken | ✔️ |
 | OneAgent installed with host-group=appname | service oneagent status | ✔️ |
-| easytravel installed and started (accesible from your browser) | docker ps --format "{{.ID}}\t{{.Status}}\t{{.Names}}" | ✔️ |
+| easytravel installed and started (accessible from your browser) | docker ps --format "{{.ID}}\t{{.Status}}\t{{.Names}}" | ✔️ |
 | cd;git clone https://github.com/ace-dynatrace-lab/ace-monitoring-as-code (this lab) | cd;ls -lrt ace-monitoring-as-code | ✔️ |
-| monaco installed with NEW_CLI=1 (new monaco cli version) | cd;cd ace-monitoring-as-code;./monaco --version  | ✔️ |
-| monaco download -e=environments.yaml mydownload (for backup) | cd;ls -lrt ace-monitoring-as-code/mydownload/free_trial | ✔️ |
+| monaco installed with NEW_CLI=1 (new monaco cli version) | cd;cd easy-dynatrace-with-monaco;./monaco --version  | ✔️ |
+| monaco download -e=environments.yaml mydownload (for backup) | cd;ls -lrt easy-dynatrace-with-monaco/mydownload/free_trial | ✔️ |
 
 # Next Step
 
-- [01-deploy-Config](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
+- [01-deploy-Config](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/01-deploy-Config) => to deploy all the configuration for easytravel on your tenant  
 
