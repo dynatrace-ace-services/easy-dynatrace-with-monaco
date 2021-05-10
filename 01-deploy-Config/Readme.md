@@ -30,7 +30,7 @@ You will import :
       
 3) run monaco in drive mode (no action - just testing the command of monaco)  
 
-       cd;cd ace-monitoring-as-code
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -d -e=environments.yaml -s=free_trial 01-deploy-Config
 
 - result  
@@ -38,7 +38,7 @@ You will import :
 
 4) deploy the configuration (no drive mode)  
 
-       cd;cd ace-monitoring-as-code
+       cd;cd easy-dynatrace-with-monaco:
        ./monaco deploy -e=environments.yaml -s=free_trial 01-deploy-Config
        
 5) verify on your Dynatrace environment the result of the imported configurations  
@@ -75,4 +75,4 @@ Click on Preview botton to display the result of this configuration
 
        
 # Next Step
-- [02-add-Javascriptframeworks](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/02-add-Javascriptframeworks) => "jQueries", "ICEfaces" and "Prototype" javascript framework
+- [02-add-Javascriptframeworks](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/02-add-Javascriptframeworks) => "jQueries", "ICEfaces" and "Prototype" javascript framework
