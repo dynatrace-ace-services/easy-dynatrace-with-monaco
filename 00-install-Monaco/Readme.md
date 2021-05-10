@@ -73,7 +73,7 @@ with these privileges (more info about token permission for monaco [here](https:
 | export MyToken=abcd1234xyz| echo "MyToken="$MyToken | ✔️ |
 | OneAgent installed with host-group=appname | service oneagent status | ✔️ |
 | easytravel installed and started (accessible from your browser) | docker ps --format "{{.ID}}\t{{.Status}}\t{{.Names}}" | ✔️ |
-| cd;git clone https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco (this lab) | cd;ls -lrt ace-monitoring-as-code | ✔️ |
+| cd;git clone https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco (this lab) | cd;ls -lrt easy-dynatrace-with-monaco | ✔️ |
 | monaco installed with NEW_CLI=1 (new monaco cli version) | cd;cd easy-dynatrace-with-monaco;./monaco --version  | ✔️ |
 | monaco download -e=environments.yaml mydownload (for backup) | cd;ls -lrt easy-dynatrace-with-monaco/mydownload/free_trial | ✔️ |
 
