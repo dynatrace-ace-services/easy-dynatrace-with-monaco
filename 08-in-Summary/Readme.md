@@ -11,7 +11,12 @@ it's what you can define in your Jenkins Pipeline to automate your monitoring :
       export Email=myemail@email.com
       export EnableSynthetic=true
       export Owner=$Email
+      
+- update the config
 
+      cd;
+      cd easy-dynatrace-with-monaco;
+      git pull
 
 - deploy the config
 
@@ -23,4 +28,4 @@ it's what you can define in your Jenkins Pipeline to automate your monitoring :
       ./monaco deploy -e=environments.yaml -s=free_trial 06-define-Requestattribute
  
 # Next Step
-- [09-next-Step](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/09-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [09-next-Step](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/09-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
