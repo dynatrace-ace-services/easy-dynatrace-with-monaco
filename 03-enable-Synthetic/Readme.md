@@ -11,7 +11,7 @@ In this lab we will deploy a synthetic http monitor and a synthetic browser moni
        
 3) deploy the config  
 
-       cd;cd ace-monitoring-as-code;
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 03-enable-Synthetic
        
 4) verify the result on your dynatrace environment : _Synthetic_  
@@ -22,7 +22,7 @@ In this lab we will deploy a synthetic http monitor and a synthetic browser moni
 5) enable the config 
 
        export EnableSynthetic=true;
-       cd;cd ace-monitoring-as-code;
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 03-enable-Synthetic
        
 5) verify the config is enable     
@@ -32,4 +32,4 @@ In this lab we will deploy a synthetic http monitor and a synthetic browser moni
 ![image](https://user-images.githubusercontent.com/40337213/115962170-62c8ed80-a51a-11eb-9f81-ae05684e7c5d.png)
 
 # Next Step
-- [04-deploy-Dashboards](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
+- [04-deploy-Dashboards](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/04-import-Dashboards) => to deploy "Dynatrace: Smarter Simple" dashboard  
