@@ -16,4 +16,4 @@ More information for **Monitoring as Self Service** :
 - Watch YouTube Tutorial : [Leveling Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg)
 - Also make sure to check out our Keptn Tutorials : https://tutorials.keptn.sh
 
-For a complete ACE labs, go here https://university.dynatrace.com/live-training/training/22499 
+For a complete Autonomous Cloud Lab, go here https://university.dynatrace.com/live-training/training/22499 
