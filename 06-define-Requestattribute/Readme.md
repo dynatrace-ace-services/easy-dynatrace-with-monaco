@@ -13,7 +13,7 @@ and you will filter the service flow view on a specific destination.
 
 2) generate the request attribue **easytravel-findJourneyByLoaction**  
 
-       cd;cd ace-monitoring-as-code
+       cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 06-define-Requestattribute
  
 3) verify on your dynatrace environment : _Transactions and services + filter on Request Attribute:easytravel00-findJourneyByLoaction_    
@@ -41,4 +41,4 @@ and you will filter the service flow view on a specific destination.
 Use your favorire decompilator tool to openthe source code (or for demo only use a online decompilator: http://www.javadecompilers.com)
 
 # Next Step 
-- [07-delete-Config](https://github.com/ace-dynatrace-lab/ace-monitoring-as-code/tree/main/07-delete-Config) => to delete the configuration deployed in the lab_monaco   
+- [07-delete-Config](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco/tree/main/07-delete-Config) => to delete the configuration deployed in the lab_monaco   
