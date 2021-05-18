@@ -17,7 +17,7 @@ You will import :
 1) export the variables  
 
        export Appname=<Host_Group>
-       export Hostname=<myhostnname.domain.com>
+       export Hostname=<myhostname.domain.com> (without https://...)
        export Email=monemail@email.com
   
 2) validate the env variables 
