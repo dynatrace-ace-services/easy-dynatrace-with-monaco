@@ -14,7 +14,7 @@
      "comparisonInfo": {
       "caseSensitive": false,
       "negate": false,
-      "operator": "EQUALS",
+      "operator": "CONTAINS",
       "type": "STRING",
       "value": "{{.name}}"
      },
