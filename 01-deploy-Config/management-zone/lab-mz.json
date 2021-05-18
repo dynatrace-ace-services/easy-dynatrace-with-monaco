@@ -86,6 +86,29 @@
    "enabled": true,
    "propagationTypes": [],
    "type": "HTTP_MONITOR"
+  },
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": false,
+      "negate": false,
+      "operator": "CONTAINS",
+      "type": "STRING",
+      "value": "{{.name}}"
+     },
+     "key": {
+      "attribute": "SERVICE_DATABASE_NAME",
+      "type": "STATIC"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [
+    "SERVICE_TO_HOST_LIKE",
+    "SERVICE_TO_PROCESS_GROUP_LIKE"
+   ],
+   "type": "SERVICE"
   }
  ]
 }
