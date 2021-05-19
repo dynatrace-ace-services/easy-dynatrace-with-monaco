@@ -8,7 +8,7 @@
 2) download monaco (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/tag/v1.5.2))  
 
        cd;cd easy-dynatrace-with-monaco;
-       wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.5.2/monaco-linux-amd64;
+       wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.5.3/monaco-linux-amd64;
        mv monaco-linux-amd64 monaco;
        chmod +x monaco
 
