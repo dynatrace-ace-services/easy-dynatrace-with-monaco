@@ -1,5 +1,5 @@
 {
- "name": "{{ .name }}",
+ "name2": "{{ .name }}",
  "applicationIdentifier": "{{.applicationId}}",
  "filterConfig": {
   "applicationMatchTarget": "DOMAIN",
