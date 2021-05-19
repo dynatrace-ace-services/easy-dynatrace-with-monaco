@@ -5,7 +5,7 @@
        cd;
        git clone https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco.git
 
-2) download monaco (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/tag/v1.5.2))  
+2) download monaco (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/))  
 
        cd;cd easy-dynatrace-with-monaco;
        wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.5.3/monaco-linux-amd64;
