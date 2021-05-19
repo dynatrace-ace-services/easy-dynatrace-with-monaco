@@ -1,4 +1,5 @@
 {
+ "displayName": "{{ .name }}",
  "applicationIdentifier": "{{.applicationId}}",
  "filterConfig": {
   "applicationMatchTarget": "DOMAIN",
