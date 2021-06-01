@@ -28,15 +28,7 @@ You will import :
 ![image](https://user-images.githubusercontent.com/40337213/116620595-542b6d80-a942-11eb-8c44-909b151c5500.png)
       
       
-3) run monaco in drive mode (no action - just testing the command of monaco)  
-
-       cd;cd easy-dynatrace-with-monaco;
-       ./monaco deploy -d -e=environments.yaml -s=free_trial 01-deploy-Config
-
-- result  
-![image](https://user-images.githubusercontent.com/40337213/115118727-ef1c6300-9fa4-11eb-8ba4-55bee76a8c1d.png)
-
-4) deploy the configuration (no drive mode)  
+4) deploy the configuration 
 
        cd;cd easy-dynatrace-with-monaco;
        ./monaco deploy -e=environments.yaml -s=free_trial 01-deploy-Config
@@ -46,7 +38,7 @@ You will import :
 - **application-web and app-detection-rule** : _Settings > Web and mobile monitoring > Application detection_ 
 ![image](https://user-images.githubusercontent.com/40337213/116122980-b6763b00-a6c2-11eb-93f3-dde596728237.png)
 
-- **management-zone** : _Settings > Preferences > Managelent Zones_ 
+- **management-zone** : _Settings > Preferences > Management Zones_ 
 ![image](https://user-images.githubusercontent.com/40337213/115960930-6c4f5700-a514-11eb-9b6d-952b86a17730.png)
 
 - **autotag** : _Settings > Tags > Automatically applied tags_
