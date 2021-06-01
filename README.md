@@ -19,12 +19,12 @@ This lab has been tested with linux Ubuntu 16.04 on Azure.
              wget  -O Dynatrace-OneAgent-Linux-1.xxx.sh ...
        2)  Verify signature (optional)
        3)  Set customized options:
-           - host-group => easytravel00 
+           - host-group => easytravel 
            - properties => env=sandbox
        4) Run the installer with root rights : 
-            sudo /bin/sh Dynatrace-OneAgent-Linux-1.213.155.sh --set-host-group=easytravel00 --set-host-property=env=sandbox
+            sudo /bin/sh Dynatrace-OneAgent-Linux-1.213.155.sh --set-host-group=easytravel --set-host-property=env=sandbox
 
-- be sure to configure a host-group during this installation. In this example **host-group=easytravel00**
+- be sure to configure a host-group during this installation. In this example **host-group=easytravel**
 
 3) install easytravel docker   
 - test if easytravel is already installed (it could be the case for the training and quickstart environment)   
