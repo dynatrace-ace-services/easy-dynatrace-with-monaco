@@ -24,6 +24,10 @@ You will import :
 
        echo "NEW_CLI="$NEW_CLI;echo "MyTenant=https://"$MyTenant;echo "MyToken="$MyToken;echo "Appname="$Appname;echo "Hostname="$Hostname;echo "Email="$Email 
 
+- note
+In this lab, we use reference `easytravel`, `easytravel00` ... `easytravel04` 
+Of course, if you start with `easytravel`, stay with `easytravel`
+
 - result  
 ![image](https://user-images.githubusercontent.com/40337213/116620595-542b6d80-a942-11eb-8c44-909b151c5500.png)
       
