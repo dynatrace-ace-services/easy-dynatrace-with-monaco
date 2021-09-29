@@ -1,10 +1,11 @@
-{
+ {
   "metadata": {
     "configurationVersions": [
-      3
+      5
     ],
-    "clusterVersion": "1.215.107.20210414-181420"
+    "clusterVersion": "1.227.99.20210928-115431"
   },
+  "id": "c61a6cd8-e828-400f-86c8-cd0ebdb8d105",
   "dashboardMetadata": {
 	"name": "{{.name}}",
 	"owner": "{{.owner}}",
@@ -28,48 +29,48 @@
       "configured": true,
       "bounds": {
         "top": 760,
-        "left": 1216,
-        "width": 228,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Throughput of services ",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "COUNT",
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 760,
+					 
+					 
+					 
+		
+					   
+					   
+						
+												
+									  
+						
+							  
+							 
+					 
+			 
+														
+									 
+							 
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+							 
+									
+						 
+				 
+				   
         "left": 1672,
         "width": 228,
         "height": 228
@@ -107,48 +108,48 @@
       }
     },
     {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 760,
-        "left": 988,
-        "width": 228,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Service outlier transactions (max)",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "MAX",
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
+							 
+									
+						 
+				 
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+														   
+									  
+						
+							  
+							 
+					 
+			 
+														
+								   
+							 
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
@@ -162,184 +163,184 @@
       "markdown": "[🐢 TX > 10 Sec](ui/diagnostictools/mda?mdaId=topweb&gtf=-1h&gf=all&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%112%1026%111%100%1110000000%144611686018427387) - [🐌 >30 Sec](ui/diagnostictools/mda?mdaId=topweb&gtf=-1h&gf=all&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%112%1026%111%100%1130000000%144611686018427387) - [Top SQL Statements](ui/diagnostictools/mda?gtf=-1h&gf=all&mdaId=topdb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%110) "
     },
     {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 494,
-        "left": 988,
-        "width": 456,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Request count vs 95th percentile",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "PERCENTILE",
-              "percentile": 95,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:service.response.time",
-              "aggregation": "COUNT",
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 494,
-        "left": 1444,
-        "width": 456,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "HTTP [4|5xx] and failed transactions",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:service.errors.fourxx.count",
-              "aggregation": "NONE",
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:service.errors.fivexx.count",
-              "aggregation": "NONE",
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:service.errors.total.count",
-              "aggregation": "NONE",
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 760,
-        "left": 1444,
-        "width": 228,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Database calls per Service",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.dbChildCallCount",
-              "aggregation": "NONE",
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
+							 
+									
+						 
+				 
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+														 
+									  
+						
+							  
+							   
+					 
+			 
+														
+										  
+							   
+							 
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								  
+										
+			  
+			 
+														
+									 
+							
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+							 
+									
+						 
+				 
+				   
+					 
+					 
+					 
+		
+					   
+					   
+						
+															 
+									  
+						
+							  
+							   
+					 
+			 
+															  
+									
+							
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								  
+										
+			  
+			 
+															  
+									
+							
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								  
+										
+			  
+			 
+															 
+									
+							 
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+							 
+									
+						 
+				 
+				   
+					 
+					 
+					 
+		
+					   
+					   
+						
+												   
+									  
+						
+							  
+							 
+					 
+			 
+														   
+									
+							 
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
@@ -363,150 +364,150 @@
         "height": 152
       },
       "tileFilter": {},
-      "markdown": "## {{.appname}} - {{.owner}}\n💻 Linux : [https://{{.domain}}](https://{{.domain}})      \n✈  Easytravel: [http://{{.domain}}](http://{{.domain}})    \n🛸 Monaco lab : [https://github.com/JLLormeau/monaco-lab](https://github.com/JLLormeau/monaco-lab)     \n📊 Bizopsconfigurator : [https://dynatrace.github.io/BizOpsConfigurator/index.html](https://dynatrace.github.io/BizOpsConfigurator/index.html#miscTools)"
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 988,
-        "left": 1292,
-        "width": 304,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Process memory allocation bytes API",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.memory.memAllocationBytes",
-              "aggregation": "NONE",
-              "type": "BAR",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entityDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 988,
-        "left": 1596,
-        "width": 304,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Process memory allocation/survived objects count API",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.memory.memAllocationCount",
-              "aggregation": "NONE",
-              "type": "AREA",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entityDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": false,
-              "aggregationRate": "TOTAL"
-            },
-            {
-              "metric": "builtin:tech.jvm.memory.memSurvivorsCount",
-              "aggregation": "NONE",
-              "type": "BAR",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "API",
-                  "values": [],
-                  "entityDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 988,
-        "left": 988,
-        "width": 304,
-        "height": 228
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "JVM total CPU time by ThreadGroup",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:tech.jvm.threads.totalCpuTime",
-              "aggregation": "NONE",
-              "type": "AREA",
-              "entityType": "PROCESS_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "Thread group",
-                  "values": [],
-                  "entityDimension": false
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
+																																																																																																																																					 
+	  
+	 
+				 
+									
+						 
+				 
+				   
+					 
+					 
+					 
+		
+					   
+					   
+						
+															
+									  
+						
+							  
+							   
+					 
+			 
+																	 
+									
+							
+													 
+							 
+				 
+							
+								
+							   
+										  
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
+									
+						 
+				 
+				   
+					 
+					 
+					 
+		
+					   
+      "markdown": "## {{.appname}} - {{.owner}}\n💻 Linux : [https://{{.domain}](https://{{.domain})      \n✈  Easytravel-angular: [http://{{.domain}:9079](http://{{.domain}:9079)    \n✈  Easytravel-classic: [http://{{.domain}/orange.jsf](http://{{.domain}/orange.jsf)  \n🛸 Monaco lab : [https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco](https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco)     \n📊 Bizopsconfigurator : [https://dynatrace.github.io/BizOpsConfigurator/index.html](https://dynatrace.github.io/BizOpsConfigurator/index.html#miscTools)"
+						
+																			 
+									  
+						
+							  
+							   
+					 
+			 
+																	 
+									
+							 
+													 
+							 
+				 
+							
+								
+							   
+										  
+				 
+				
+									 
+								  
+										
+			  
+			 
+																	
+									
+							
+													 
+							 
+				 
+							
+								
+							   
+										  
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
+									
+						 
+				 
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+														  
+									  
+						
+							  
+							   
+					 
+			 
+																
+									
+							 
+													 
+							 
+				 
+							
+										 
+							   
+										  
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
     },
     {
       "name": "Host health",
@@ -721,126 +722,126 @@
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
       "bounds": {
-        "top": 722,
-        "left": 304,
-        "width": 304,
-        "height": 152
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Success rate %",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "SINGLE_VALUE",
-          "series": [
-            {
-              "metric": "builtin:service.successes.server.rate",
-              "aggregation": "AVG",
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 570,
-        "left": 304,
-        "width": 608,
-        "height": 152
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Request count (sum)",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:service.requestCount.total",
-              "aggregation": "NONE",
-              "type": "BAR",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 722,
-        "left": 608,
-        "width": 304,
-        "height": 152
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Response time (95ᵗʰ percentile)",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "SINGLE_VALUE",
-          "series": [
-            {
-              "metric": "builtin:service.response.server",
-              "aggregation": "PERCENTILE",
-              "percentile": 95,
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+									   
+									  
+						
+							  
+								 
+					 
+			 
+																
+								   
+							 
+									  
+							   
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
+									
+						 
+				 
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+											
+									  
+						
+							  
+							   
+					 
+			 
+															 
+									
+							
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
+									
+						 
+				 
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+														   
+									  
+						
+							  
+								 
+					 
+			 
+														  
+										  
+							   
+							 
+									  
+							 
+				 
+							
+											  
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
+									
+						 
+				 
         "top": 380,
         "left": 304,
         "width": 304,
@@ -926,90 +927,90 @@
       "markdown": "\n## 🔍 [Infrastructure](#newhosts)\n"
     },
     {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 912,
-        "left": 0,
-        "width": 304,
-        "height": 304
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Container memory usage ",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:containers.memory.usagePercent",
-              "aggregation": "AVG",
-              "type": "LINE",
-              "entityType": "CONTAINER_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.container_group_instance",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 912,
-        "left": 304,
-        "width": 608,
-        "height": 152
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Container CPU usage ",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TIMESERIES",
-          "series": [
-            {
-              "metric": "builtin:containers.cpu.usagePercent",
-              "aggregation": "AVG",
-              "type": "LINE",
-              "entityType": "CONTAINER_GROUP_INSTANCE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.container_group_instance",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
+				 
+									
+						 
+				 
+				   
+				  
+					 
+					 
+		
+					   
+					   
+						
+												
+									  
+						
+							  
+							 
+					 
+			 
+																 
+								   
+							 
+													   
+							 
+				 
+							
+															   
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
+									
+						 
+				 
+				   
+					
+					 
+					 
+		
+					   
+					   
+						
+											 
+									  
+						
+							  
+							   
+					 
+			 
+															  
+								   
+							 
+													   
+							 
+				 
+							
+															   
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
       "name": "Network status",
       "tileType": "NETWORK_MEDIUM",
       "configured": true,
@@ -1023,48 +1024,48 @@
     },
     {
       "name": "",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 1064,
-        "left": 304,
-        "width": 304,
-        "height": 152
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Disk used %",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "SINGLE_VALUE",
-          "series": [
-            {
-              "metric": "builtin:host.disk.usedPct",
-              "aggregation": "MAX",
-              "type": "LINE",
-              "entityType": "HOST",
-              "dimensions": [
-                {
-                  "id": "1",
-                  "name": "dt.entity.disk",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": false,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
-      "name": "",
+									
+						 
+				 
+					
+					
+					 
+					 
+		
+					   
+					   
+						
+									
+									  
+						
+							  
+								 
+					 
+			 
+													
+								   
+							 
+								   
+							 
+				 
+							
+										   
+							   
+										 
+				 
+				
+									 
+								 
+										
+			 
+			
+							  
+		  
+								  
+	   
+	  
+	 
+				 
       "tileType": "SYNTHETIC_TESTS",
       "configured": true,
       "bounds": {
@@ -1153,48 +1154,6 @@
       "markdown": "[Diagnostic tools](/ui/diagnostictools)  - [Smartscape](#smartscape) - [Top WebRequests](ui/diagnostictools/mda?gtf=-1h&gf=all&mdaId=topweb&metric=REQUEST_COUNT&dimension=%7BRequest:Name%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%112%1026%111)\n- [Exceptions](ui/diagnostictools/mda?gtf=-1h&gf=all&mdaId=exceptions&metric=EXCEPTION_COUNT&dimension=%7BException:Class%7D&mergeServices=true&aggregation=SUM&percentile=80&chart=COLUMN&servicefilter=0%1E29%110) - [Process Crashes](#processcrashesglobal) - [CPU Analysis](/ui/diagnostictools/profiling/cpu) - [Log Analytics](#loganalytics)\n- [Technologies](#newprocessessummary) - [Database Statements](/ui/diagnostictools/mda?mdaId=topdb&metric=REQUEST_COUNT&dimension=%7BDatabase-Statement%7D&mergeServices=false&aggregation=COUNT&percentile=80&chart=COLUMN&servicefilter=0%1E26%110)"
     },
     {
-      "name": "Custom chart",
-      "tileType": "CUSTOM_CHARTING",
-      "configured": true,
-      "bounds": {
-        "top": 570,
-        "left": 0,
-        "width": 304,
-        "height": 304
-      },
-      "tileFilter": {},
-      "filterConfig": {
-        "type": "MIXED",
-        "customName": "Success rate (server side)",
-        "defaultName": "Custom chart",
-        "chartConfig": {
-          "legendShown": true,
-          "type": "TOP_LIST",
-          "series": [
-            {
-              "metric": "builtin:service.successes.server.rate",
-              "aggregation": "AVG",
-              "type": "LINE",
-              "entityType": "SERVICE",
-              "dimensions": [
-                {
-                  "id": "0",
-                  "name": "dt.entity.service",
-                  "values": [],
-                  "entityDimension": true
-                }
-              ],
-              "sortAscending": true,
-              "sortColumn": true,
-              "aggregationRate": "TOTAL"
-            }
-          ],
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": {}
-      }
-    },
-    {
       "name": "User Sessions Query",
       "tileType": "DTAQL",
       "configured": true,
@@ -1209,6 +1168,1090 @@
       "query": "SELECT ip, userType, endTime   FROM usersession where userExperienceScore = \"FRUSTRATED\"  ORDER BY endTime DESC LIMIT 5",
       "type": "TABLE",
       "limit": 50
+    },
+    {
+      "name": "Success rate (server side)",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 570,
+        "left": 0,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+					   
+						
+      "customName": "Success rate (server side)",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.successes.server.rate",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+				 
+                "A"
+											  
+							   
+										 
+				 
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Request count (sum)",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 570,
+        "left": 304,
+        "width": 608,
+        "height": 152
+      },
+      "tileFilter": {},
+      "customName": "Request count (sum)",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:service.requestCount.total:splitBy(\"dt.entity.service\"):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "COLUMN"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Success rate %",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 722,
+        "left": 304,
+        "width": 304,
+        "height": 152
+      },
+      "tileFilter": {},
+      "customName": "Success rate %",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.successes.server.rate",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A",
+                ""
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Response time (95ᵗʰ percentile)",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 722,
+        "left": 608,
+        "width": 304,
+        "height": 152
+      },
+      "tileFilter": {},
+      "customName": "Response time (95ᵗʰ percentile)",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.response.server",
+          "spaceAggregation": "PERCENTILE_90",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A",
+                ""
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Container memory usage ",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 912,
+        "left": 0,
+        "width": 304,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Container memory usage ",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:containers.memory.usagePercent",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.container_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Disk used %",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 1064,
+        "left": 304,
+        "width": 304,
+        "height": 152
+      },
+      "tileFilter": {},
+      "customName": "Disk used %",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:host.disk.usedPct",
+          "spaceAggregation": "MAX",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.disk"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A",
+                ""
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Container CPU usage ",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 912,
+        "left": 304,
+        "width": 608,
+        "height": 152
+      },
+      "tileFilter": {},
+      "customName": "Container CPU usage ",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:containers.cpu.usagePercent",
+          "spaceAggregation": "AVG",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.container_group_instance"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "JVM total CPU time by ThreadGroup",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 988,
+        "left": 988,
+        "width": 304,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "JVM total CPU time by ThreadGroup",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:tech.jvm.threads.totalCpuTime:splitBy(\"Thread group\"):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Service outlier transactions (max)",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 760,
+        "left": 988,
+        "width": 228,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Service outlier transactions (max)",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.response.time",
+          "spaceAggregation": "MAX",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Process memory allocation bytes API",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 988,
+        "left": 1292,
+        "width": 304,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Process memory allocation bytes API",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "metricSelector": "builtin:tech.jvm.memory.memAllocationBytes:splitBy(API):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "COLUMN"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Process memory allocation/survived objects count API",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 988,
+        "left": 1596,
+        "width": 304,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Process memory allocation/survived objects count API",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:tech.jvm.memory.memAllocationCount:splitBy(API):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        },
+        {
+          "id": "B",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:tech.jvm.memory.memSurvivorsCount:splitBy(API):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "AREA"
+            }
+          },
+          {
+            "matcher": "B:",
+            "properties": {
+              "seriesType": "COLUMN"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A",
+                "B"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Throughput of services ",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 760,
+        "left": 1216,
+        "width": 228,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Throughput of services ",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.response.time",
+          "spaceAggregation": "COUNT",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Database calls per Service",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 760,
+        "left": 1444,
+        "width": 228,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Database calls per Service",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:service.dbChildCallCount:splitBy(\"dt.entity.service\"):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TOP_LIST",
+        "global": {
+          "theme": "DEFAULT",
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Request count vs 95th percentile",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 494,
+        "left": 988,
+        "width": 456,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Request count vs 95th percentile",
+      "queries": [
+        {
+          "id": "A",
+          "metric": "builtin:service.response.time",
+          "spaceAggregation": "PERCENTILE_90",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        },
+        {
+          "id": "B",
+          "metric": "builtin:service.response.time",
+          "spaceAggregation": "COUNT",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "filterBy": {
+            "filterOperator": "AND",
+            "nestedFilters": [],
+            "criteria": []
+          },
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          },
+          {
+            "matcher": "B:",
+            "properties": {
+              "seriesType": "COLUMN"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            },
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "RIGHT",
+              "queryIds": [
+                "B"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "HTTP [4|5xx] and failed transactions",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 494,
+        "left": 1444,
+        "width": 456,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "HTTP [4|5xx] and failed transactions",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:service.errors.fourxx.count:splitBy(\"dt.entity.service\"):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        },
+        {
+          "id": "B",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:service.errors.fivexx.count:splitBy(\"dt.entity.service\"):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        },
+        {
+          "id": "C",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:service.errors.total.count:splitBy(\"dt.entity.service\"):value:auto:sort(value(sum,descending)):limit(10)",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {
+          "theme": "DEFAULT",
+          "threshold": {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "color": "#7dc540"
+              },
+              {
+                "color": "#f5d30f"
+              },
+              {
+                "color": "#dc172a"
+              }
+            ]
+          },
+          "seriesType": "LINE"
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "properties": {
+              "seriesType": "COLUMN"
+            }
+          },
+          {
+            "matcher": "B:",
+            "properties": {
+              "seriesType": "COLUMN"
+            }
+          },
+          {
+            "matcher": "C:",
+            "properties": {
+              "seriesType": "LINE"
+            }
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "displayName": "",
+              "visible": true,
+              "min": "AUTO",
+              "max": "AUTO",
+              "position": "LEFT",
+              "queryIds": [
+                "A",
+                "B",
+                "C"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        }
+      }
     }
   ]
 }
