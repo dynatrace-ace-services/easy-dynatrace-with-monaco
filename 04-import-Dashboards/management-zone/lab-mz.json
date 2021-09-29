@@ -95,7 +95,7 @@
       "negate": false,
       "operator": "CONTAINS",
       "type": "STRING",
-      "value": "{{.name}}"
+      "value": "easyTravel-Business"
      },
      "key": {
       "attribute": "SERVICE_DATABASE_NAME",
