@@ -105,8 +105,6 @@
    ],
    "enabled": true,
    "propagationTypes": [
-    "SERVICE_TO_HOST_LIKE",
-    "SERVICE_TO_PROCESS_GROUP_LIKE"
    ],
    "type": "SERVICE"
   }
