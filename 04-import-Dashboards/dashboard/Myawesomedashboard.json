@@ -5,8 +5,7 @@
     ],
     "clusterVersion": "1.227.99.20210928-115431"
   },
-  "id": "c61a6cd8-e828-400f-86c8-cd0ebdb8d105",
-  "dashboardMetadata": {
+   "dashboardMetadata": {
 	"name": "{{.name}}",
 	"owner": "{{.owner}}",
 	"shared": true,
