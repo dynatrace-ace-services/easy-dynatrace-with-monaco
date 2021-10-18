@@ -8,6 +8,6 @@ detect-rule1:
 - applicationId: "/application-web/app-1.id"
 
 detect-rule2:
-- name: "dynatracelab"
+- name: "{{.Env.Hostname}}"
 - pattern: "{{.Env.Hostname}}"
 - applicationId: "/application-web/app-1.id"
