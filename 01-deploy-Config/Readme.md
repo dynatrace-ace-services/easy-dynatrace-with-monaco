@@ -8,7 +8,7 @@ You will import :
 - management-zone
 - autotag
 - alerting-profile 
-- notifiaction
+- notification
 - maintenance-window
 - host-naming
 - processgroup-naming
