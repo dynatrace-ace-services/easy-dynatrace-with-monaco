@@ -24,7 +24,7 @@ You will import :
 	   export Appname=easytravel<XX>
 	   export Hostname=dynatracelab<XX>.<AzureRegion>.cloudapp.azure.com
 	   export Email=<your email of Dynatrace saas tenant connection>
-	   export EnableSynthetic=Yes
+	   export EnableSynthetic=true
 
   
 2) validate the env variables 
@@ -35,4 +35,4 @@ You will import :
 
        cd;cd easy-dynatrace-with-monaco/
        ./monaco deploy -e=environments.yaml 10-full-deploy/Deploy
-	   ./monaco deploy -e=environments.yaml 10-full-deploy/Slo
+	./monaco deploy -e=environments.yaml 10-full-deploy/Slo
