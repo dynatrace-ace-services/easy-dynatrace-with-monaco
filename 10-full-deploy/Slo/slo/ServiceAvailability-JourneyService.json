@@ -1,0 +1,20 @@
+{
+ "denominatorValue": 87297,
+ "description": "Service Errors Server SuccessCount / Service RequestCount Server",
+ "enabled": true,
+ "error": "NONE",
+ "errorBudget": 4.621980136774454,
+ "evaluatedPercentage": 99.62198013677445,
+ "evaluationType": "AGGREGATE",
+ "filter": "type(\"SERVICE\"),entityName(\"[{{.appname}}] - JourneyService\")",
+ "metricDenominator": "builtin:service.requestCount.server",
+ "metricNumerator": "builtin:service.errors.server.successCount",
+ "metricRate": "",
+ "name": "{{.name}}",
+ "numeratorValue": 86967,
+ "status": "SUCCESS",
+ "target": 95,
+ "timeframe": "-5m",
+ "useRateMetric": false,
+ "warning": 97.5
+}
