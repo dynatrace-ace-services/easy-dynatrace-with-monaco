@@ -32,6 +32,6 @@ You will import :
 
 3) deploy the configuration 
 
-       cd;cd dynatrace-lab/lab-onboarding;
-       ./monaco deploy -e=environments.yaml Deploy
-	   ./monaco deploy -e=environments.yaml Slo
+       cd;cd easy-dynatrace-with-monaco/
+       ./monaco deploy -e=environments.yaml 10-full-deplo/Deploy
+	   ./monaco deploy -e=environments.yaml 10-full-deplo/Slo
