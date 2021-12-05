@@ -1,6 +1,8 @@
 # 00-install-Monaco
            
 1) download the lab  
+Copy the command with the copy button in the left corner.  
+Paste the command on you VM.  
 
        cd;
        git clone https://github.com/dynatrace-ace-services/easy-dynatrace-with-monaco.git
