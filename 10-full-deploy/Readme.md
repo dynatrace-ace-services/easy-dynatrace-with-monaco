@@ -33,5 +33,5 @@ You will import :
 3) deploy the configuration 
 
        cd;cd easy-dynatrace-with-monaco/
-       ./monaco deploy -e=environments.yaml 10-full-deplo/Deploy
-	   ./monaco deploy -e=environments.yaml 10-full-deplo/Slo
+       ./monaco deploy -e=environments.yaml 10-full-deploy/Deploy
+	   ./monaco deploy -e=environments.yaml 10-full-deploy/Slo
