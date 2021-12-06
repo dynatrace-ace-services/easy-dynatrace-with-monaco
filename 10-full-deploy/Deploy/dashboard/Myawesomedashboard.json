@@ -97,11 +97,11 @@
       "bounds": {
         "top": 0,
         "left": 1064,
-        "width": 646,
+        "width": 722,
         "height": 152
       },
       "tileFilter": {},
-      "markdown": "## {{.appname}} - {{.owner}}\n💻 Linux : [https://{{.domain}}](https://{{.domain}})      \n✈  Easytravel-angular: [http://{{.domain}}:9079](http://{{.domain}}:9079)    \n✈  Easytravel-classic: [http://{{.domain}}/orange.jsf](http://{{.domain}}/orange.jsf)  \n🛸 Monaco catalogue : [https://github.com/dynatrace-ace-services/quickstart-ace-configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator)     \n📊 Bizopsconfigurator : [https://dynatrace.github.io/BizOpsConfigurator/index.html](https://dynatrace.github.io/BizOpsConfigurator/index.html#miscTools)"
+      "markdown": "## {{.appname}} - {{.owner}}\n💻 Linux : [https://{{.domain}}](https://{{.domain}})      \n✈  Easytravel-angular: [http://{{.domain}}:9079](http://{{.domain}}:9079)    \n✈  Easytravel-classic: [http://{{.domain}}/orange.jsf](http://{{.domain}}/orange.jsf)  \n🛸 How to use Dynatrace : [https://www.dynatrace.com/support/help/how-to-use-dynatrace/](https://www.dynatrace.com/support/help/how-to-use-dynatrace)     \n📊 Bizopsconfigurator : [https://dynatrace.github.io/BizOpsConfigurator/index.html](https://dynatrace.github.io/BizOpsConfigurator/index.html#miscTools)"
     },
     {
       "name": "Host health",
