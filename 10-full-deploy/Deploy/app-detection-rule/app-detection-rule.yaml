@@ -1,6 +1,6 @@
 config:
 - detect-rule1: lab-detect-rule.json
-#- detect-rule2: lab-detect-rule.json
+- detect-rule2: lab-detect-rule.json
 
 detect-rule1:
 - name: "{{.Env.Appname}}"
