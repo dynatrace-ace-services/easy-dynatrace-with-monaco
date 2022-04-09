@@ -214,7 +214,7 @@
     },
     "type": "click",
     "wait": {
-     "waitFor": "network"
+     "waitFor": "page_complete"
     }
    },
    {
