@@ -1,18 +1,6 @@
 {
  "displayName": "{{.name}}",
- "eventTypeFilters": [
-  {
-   "customEventFilter": {
-    "customTitleFilter": {
-     "caseInsensitive": true,
-     "enabled": true,
-     "negate": false,
-     "operator": "CONTAINS",
-     "value": "plugin"
-    }
-   }
-  }
- ],
+ "eventTypeFilters": [],
  "managementZoneId": "{{.mzId}}",
  "metadata": {
   "clusterVersion": "1.215.107.20210414-181420",
